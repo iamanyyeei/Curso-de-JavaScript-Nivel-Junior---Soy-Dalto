@@ -17,16 +17,12 @@ if (contador == 3 ){
         alert(`${nombre}, cómprate la paleta de crema real.`);
         alert("Tu vuelto es: " + (money - 2) + " USD"); 
     }
-    else if (money >= 5 && money < 7){
+    else if (money >= 5 && money < 8){
         alert(`${nombre}, cómprate el Pote de helado con trocitos de piña`);
         alert("Tu vuelto es: " + (money - 5) + " USD"); 
     }
-    else if (money >= 7 && money < 8){
-        alert(`${nombre}, cómprate el helado Oreo Cali`);
-        alert("Tu vuelto es: " + (money - 7) + " USD"); 
-    }
     else if (money >= 8 && money < 10){
-        alert(`${nombre}, cómprate el helado Trisabor Tío Rico`);
+        alert(`${nombre}, cómprate el helado Oreo Cali o el helado Trisabor Tío Rico`);
         alert("Tu vuelto es: " + (money - 8) + " USD"); 
     }
     else if (money >= 10 && money < 14){
@@ -61,16 +57,12 @@ if (contador == 3 ){
             alert(`${nombre}, cómprate la paleta de crema real.`);
             alert("Tu vuelto es: " + (money - 2) + " USD"); 
         }
-        else if (money >= 5 && money < 7){
+        else if (money >= 5 && money < 8){
             alert(`${nombre}, cómprate el Pote de helado con trocitos de piña`);
             alert("Tu vuelto es: " + (money - 5) + " USD"); 
         }
-        else if (money >= 7 && money < 8){
-            alert(`${nombre}, cómprate el helado Oreo Cali`);
-            alert("Tu vuelto es: " + (money - 7) + " USD"); 
-        }
         else if (money >= 8 && money < 10){
-            alert(`${nombre}, cómprate el helado Trisabor Tío Rico`);
+            alert(`${nombre}, cómprate el helado Oreo Cali o el helado Trisabor Tío Rico`);
             alert("Tu vuelto es: " + (money - 8) + " USD"); 
         }
         else if (money >= 10 && money < 14){
@@ -83,9 +75,8 @@ if (contador == 3 ){
         
         }
         else{
-            clientes--;
             alert("Lo siento, pero no te alcanza para ninguno");
-        } 
+        }
     }
 
     if (contador == 1 ){
@@ -105,16 +96,12 @@ if (contador == 3 ){
             alert(`${nombre}, cómprate la paleta de crema real.`);
             alert("Tu vuelto es: " + (money - 2) + " USD"); 
         }
-        else if (money >= 5 && money < 7){
+        else if (money >= 5 && money < 8){
             alert(`${nombre}, cómprate el Pote de helado con trocitos de piña`);
             alert("Tu vuelto es: " + (money - 5) + " USD"); 
         }
-        else if (money >= 7 && money < 8){
-            alert(`${nombre}, cómprate el helado Oreo Cali`);
-            alert("Tu vuelto es: " + (money - 7) + " USD"); 
-        }
         else if (money >= 8 && money < 10){
-            alert(`${nombre}, cómprate el helado Trisabor Tío Rico`);
+            alert(`${nombre}, cómprate el helado Oreo Cali o el helado Trisabor Tío Rico`);
             alert("Tu vuelto es: " + (money - 8) + " USD"); 
         }
         else if (money >= 10 && money < 14){
@@ -127,9 +114,8 @@ if (contador == 3 ){
         
         }
         else{
-            clientes--;
             alert("Lo siento, pero no te alcanza para ninguno");
-        } 
+        }
     }
 
     alert("Las ventas han acabado por hoy, vuelve mañana <3")
