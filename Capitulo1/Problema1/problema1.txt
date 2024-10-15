@@ -1,0 +1,9 @@
+Problema 1: 
+
+Tres chicos de 23 años entran a una heladería a comprar un helado, pero los precios no están al lado de cada estante con su respectivo helado. Ellos quieren comprar el helado más caro con el dinero que tienen, si cada uno tiene distintas cantidades de dinero.
+
+Soluciones a crear:
+
+a. Ingresar el monto que tienen y mostrar el helado más caro.
+b. Si hay 2 o más, mostrar ambos.
+c. Indicar el vuelto.
