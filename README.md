@@ -1,1 +1,0 @@
-# JavaScript-con-Soy-Dalto
